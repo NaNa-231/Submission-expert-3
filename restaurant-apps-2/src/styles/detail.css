@@ -1,0 +1,113 @@
+.restaurant-images {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color:  #3c455c; */
+   
+}
+.restaurant-img{
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    max-width: 100%;
+    max-height: 400px;
+    
+}
+.detail-resto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+}
+.city, .address {
+    height: 3rem;
+    padding: 1rem;
+}
+.address {
+    height: 3rem;
+    padding: 1rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#main-content{
+    background-color:  #3c455c;
+}
+
+h2.city {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+p.city {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.restaurant-name {
+    padding:1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: -1rem;
+}
+.detail-description-resto {
+    text-align: justify;
+    max-width: 75%;
+    color: #fff;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+.title-menu {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: gold;
+    font-size: 1.5rem;
+  
+}
+.foods-list, .drinks-list{
+    color: gold;
+    font-weight: bold;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+}
+.title-review {
+    text-align: center;
+    margin: 2rem auto;
+    color: gold;
+    font-size: 1.5rem;  
+}
+.card-review {
+    background-color:  #9aacb8;
+    border: 0.1rem solid;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 40%;
+    border-radius: 2rem;
+}
+.customer-reviews {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviewer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.review-text {
+    display: flex;
+    justify-content: center;
+}
